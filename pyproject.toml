@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "the_error_utils"
+version = "0.2.0"
+description = "A Python utility package for error handling, logging, and input validation"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = []
+license = "MIT"
+
+[tool.setuptools.packages.find]
+where = ["src"]
